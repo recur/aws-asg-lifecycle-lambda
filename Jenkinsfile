@@ -2,4 +2,6 @@
 
 library 'defn/jenkins-kiki@main'
 
-goreleaserMain(readYaml file: 'jenkins.yaml')
+def config = readYaml file: 'jenkins.yaml'
+
+goreleaserMain(config)
