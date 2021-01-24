@@ -2,4 +2,4 @@
 
 library 'defn/jenkins-kiki@main'
 
-goreleaserMain()
+kiki()
